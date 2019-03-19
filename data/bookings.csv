@@ -1,0 +1,71 @@
+bookingid,userid,to_stn,from_stn,type,cost
+100,1,Brudavana Nagara Jinke vana,Yeshwanathapura new railway station,bus,65
+101,2,Brundavananagara Jinke Park,Chowdeshwari Bus Stand JP Park,bus,69
+102,3,Brudavana Nagara Jinke vana,Krishnarajendra Market,bus,34
+103,4,Raghavendra Colony,City Civil Court,bus,19
+104,5,Raghavendra Colony,Vasanthapura,bus,78
+105,6,Vinayaka Nagara,Kadugodi,bus,12
+106,7,Kempapura Agrahara,Yeshwanathapura new railway station,bus,66
+107,8,Jagajeevanram Nagara,Mysore Bank,bus,66
+108,9,Timber Yard Layout,Kempegowda Bus Station,bus,64
+109,10,Saraswathi Nagara Vijayanagara,Chikkabanawara,bus,39
+110,11,Marenahalli,Borewell,bus,34
+111,12,Nayandahalli Railway Gate,Kempegowda Bus Station,bus,50
+112,13,Chandra Layout 1st Stage,Kempegowda Bus Station,bus,61
+113,14,Vijayanagara TTMC,Kempegowda Bus Station,bus,11
+114,15,Chandra Layout,City Railway Station,bus,30
+115,16,JPNagara 6th Phase,Kempegowda Bus Station,bus,47
+116,17,Vijayanagara TTMC,Banashankari Bus Station,bus,59
+117,18,Chennamma kere Achukattu,Vasanthapura,bus,29
+118,19,Koramangala,Sarjapura Bus Stand,bus,55
+119,20,Vijayanagara TTMC,Yelenahalli,bus,14
+120,21,Vijayanagara TTMC,Bannerghatta National Park,bus,67
+121,22,Kempegowda Bus Station,Jayadeva Hospital,bus,65
+122,23,Kempegowda Bus Station,CV Raman Nagara,bus,50
+123,24,Kempegowda Bus Station,Central Silk Board,bus,48
+124,25,Kempegowda Bus Station,Nagavara,bus,17
+125,26,Kempegowda Bus Station,Ramakrishna Hegde Nagara,bus,65
+126,27,Kempegowda Bus Station,Chikkallasandra Bus Stand,bus,77
+127,28,Kempegowda Bus Station,Bagalagunte,bus,77
+128,29,Kempegowda Bus Station,Jalahalli Cross,bus,21
+129,30,Kempegowda Bus Station,Old Bayappanahalli,bus,35
+130,31,Vijayanagara TTMC,Hullala Upanagara,bus,35
+131,32,GKW Layout,Kadugodi,bus,41
+132,33,Hampinagara RPC Layout,Chikkallasandra Bus Stand,bus,65
+133,34,Basaveshwara Nagara,Shirke KHB Quarters,bus,73
+134,35,Basaveshwara Nagara,Kalyananagara Bus Stand,bus,41
+135,36,Rajaji Nagara Ramamandira,Vidyaranyapura,bus,43
+136,37,Hampinagara RPC Layout,Mangammana Palya,bus,74
+137,38,Vijayanagara TTMC,Sadhashivanagar,bus,68
+138,39,Vinayaka Nagara Nayandahalli,Jeevan Bhimanagara Bus stand,bus,36
+139,40,GKW Layout,Domlur,bus,79
+140,41,MCTC Bus Stand,Jeevan Bhimanagara Bus stand,bus,37
+141,42,Mahalakshmi Layout,Hullala Upanagara,bus,59
+142,43,Mahalakshmi Layout,Byadarahalli,bus,34
+143,44,Nandhini Layout Bus Station,Byadarahalli,bus,20
+144,45,Vidhanasoudha Layout,Byadarahalli,bus,37
+145,46,Nandhini Layout Bus Station,Chikkallasandra Bus Stand,bus,55
+146,47,Jai Bhuvaneshwari Nagara,Janapriya Town Ship,bus,38
+147,48,Rajaji Nagar 1st Block,Kadugodi,bus,74
+148,49,Iskcon Temple,Jeevanahalli,bus,31
+149,50,Yeshwanthpura TTMC,Vidyaranyapura,bus,41
+150,51,Bandi Reddy Circle,Peenya 2nd stage,bus,70
+151,52,Mahalakshmi Layout,MGRoad,bus,26
+152,53,Nandhini Layout Bus Station,Banashankari Bus Station,bus,77
+153,54,Jai Bhuvaneshwari Nagara,Kurubarahalli,bus,49
+154,55,Vidhanasoudha Layout,NAGAVARA JUNCTION,bus,55
+155,56,Laggere Arch,Avalahalli,bus,30
+156,57,Geleyara Balaga AGB Layout,Bagaluru,bus,63
+157,58,Kurubarahalli,Maniksha Parade Ground,bus,33
+158,59,Mahalakshmi Layout,Vidyaranyapura,bus,45
+159,60,Nandhini Layout Bus Station,ITI Gate,bus,26
+160,61,Jai Maruthi Nagara,Krishnarajendra Market,bus,25
+161,62,Goragunte Palya,Corporation,bus,11
+162,63,Ravi Badavane,Avalahalli BDA Park,bus,29
+163,64,Krishnananda Nagara,Shivajinagar Bus Station,bus,16
+164,65,Jai Bhuvaneshwari Nagara,Avalahalli BDA Park,bus,48
+165,66,Laggere Arch,Kamalanagar BEML layout,bus,37
+166,67,Nandhini Layout Bus Station,Bidadi,bus,78
+167,68,Sakammana Badavane,Bidadi,bus,54
+168,69,Ashraya Nagara,MG Road Metro Station,bus,33
+169,70,Rajkumar Samadhi,Vishwanatha Nagenahalli,bus,15
