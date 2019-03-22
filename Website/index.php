@@ -26,20 +26,20 @@
 
 
 </section>
-<section id="section2">
+<section class="box" id="section2">
 
-<div>
+<div class="box">
        <h2>Features</h2>
        <ul>
-              <li>facilitates saving and sharing directions</li>
-              <li>provides routes of all the buses</li>
-              <li>provides information on busses that stop at a station</li>
+              <li>Facilitates saving and sharing directions</li>
+              <li>Provides routes of all the buses</li>
+              <li>Provides information on busses that stop at a station</li>
               <li>Fast and highly secure</li>
        </ul>
 
 </div>
-<div>
-       Sign in to enjoy all the features, or <a class="button" href="input_page.php">skip >></a> for now. 
+<div class="box">
+       <a class="button" href="signup.php">Sign up</a> to enjoy all the features, or <a class="button" href="input_page.php">skip >></a> for now. 
 </div>
 
 </section>

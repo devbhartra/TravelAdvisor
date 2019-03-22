@@ -1,12 +1,19 @@
 <?php include_once "common/header.php"; ?>
 
-<section class="account">
+<section class="box blue" id="section3">
 
    <!-- IF LOGGED IN -->
 
         <!-- Content here -->
         <h2>Your Account</h2>
 
+        <form action="">
+           <div id="user-profile">
+              <img src="images/user.png" alt="profile photo">
+           </div>
+           <input type="submit" name="change-profile-photo-submit" id="change-profile-photo-submit" value="Change Profile Photo" class="button" />
+        </form>
+         <br/><br/><br/>
         <form action="">
            <div>
               <input type="text" name="username" id="username" />
