@@ -1,5 +1,6 @@
 //Read me:
-//These are the insert statements for the database Transport. They copy the data from the CSV files stored in the data folder of the GitHub repo, into the respective tables.
+//These are the insert statements for the database Transport. They copy the data from the CSV files stored in the data folder of the //GitHub repo, into the respective tables.
+//Direct insert statements are not being used as the number of tuples is very large (2052). This way is much more efficient. Ma'am has //approved of this in class.
 
 
 \COPY bookings(bookingid,userid,to_stn,from_stn,type,cost) 
