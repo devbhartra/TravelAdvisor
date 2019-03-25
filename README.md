@@ -6,24 +6,8 @@ Raunak Sengupta     (PES1201700072)
 Aprameya Kulkarni   (PES1201701583)
 Dev Bhartra         (PES1201700186)
 
-Basic Queries:  (also found in the folder Phase 2):
+Execution Procedure:
 
-select * from buses where dep_stn='Banashankari Bus Station';
-
-transport=# select * from buses where type='AC' and busno like '500%';
-
-select max(num_bookings) from users;
-select fname,lname from users where num_bookings=50;
-
- select * from buses, users where fname='Samuel' and (home_stn=dep_stn or home_stn=des_stn);
- 
-select * from bookings as B, users as U where FROM='Kengeri TTMC' and U.userid=B.userid;
-
-select sum(cost) from bookings;
-
- select * from buses where type='NORMAL' and des_stn='Maruthinagara';
- 
-select * from buses where des_stn='Kadugodi' and type='AC';
-
-
-select userid, fname from users where num_bookings>10;
+The commands to create the database are found in the file createstatements.txt in the folder Phase 2.
+Data can then be inserted to the database by running the commands containing insert statements found in the insertstatements.txt file, also in the folder Phase 2. Please note that due to the large size of the data being worked with, we have used 'copy' statemnts to import the data which is stored in the csv files, which can be found in the folder - Data. 
+Then basic queries can be executed on the data by running the queries found in the file basicquries.txt, which is located in the folder, Phase 2.
