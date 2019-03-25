@@ -149,3 +149,37 @@ TABLESPACE pg_default;
 
 ALTER TABLE public.users
 OWNER to postgres;
+
+
+
+//Read me:
+//These are the insert statements for the database Transport. They copy the data from the CSV files stored in the data folder of the //GitHub repo, into the respective tables.
+//Direct insert statements are not being used as the number of tuples is very large (2052). This way is much more efficient. Ma'am has //approved of this in class.
+
+
+\COPY bookings(bookingid,userid,to_stn,from_stn,type,cost) 
+FROM 'C:\Users\Dev Bhartra\Documents\GitHub\TravelAdvisor\data\bookings.csv' DELIMITER ',' CSV HEADER;
+
+\COPY 
+bus_routes(dep_stn,stop1,stop2,stop3,stop4,stop5,stop6,stop7)
+FROM 'C:\Users\Dev Bhartra\Documents\GitHub\TravelAdvisor\data\bus_routes.csv';
+
+
+\COPY 
+buses(busno,dep_stn,des_stn,total_stops,distance,j_time,type)
+FROM 'C:\Users\Dev Bhartra\Documents\GitHub\TravelAdvisor\data\bmtcdata.csv';
+
+
+\COPY 
+metro(dep_stn,des_stn,metro_type)
+FROM 'C:\Users\Dev Bhartra\Documents\GitHub\TravelAdvisor\data\metro.csv';
+
+
+\COPY 
+stations(station_name,station_code,type)
+FROM 'C:\Users\Dev Bhartra\Documents\GitHub\TravelAdvisor\data\stations.csv';
+
+
+\COPY 
+users(userid,buspass,fname,lname,home_stn,num_bookings,metrocard)
+FROM 'C:\Users\Dev Bhartra\Documents\GitHub\TravelAdvisor\data\users.csv';
